@@ -32,6 +32,10 @@ Notes
 - `.gitignore` already contains common WordPress, PHP, and editor exclusions.
 - If you'd like, I can attempt to run `gh repo create` for you, but I'll need your permission and the `gh` CLI installed and authenticated in this environment.
 
+License
+-------
+This project is licensed under the MIT License — see `LICENSE` for details.
+
 Next steps I can take if you want:
 - Run `git init` and make an initial commit locally (will do now unless you object).
 - Attempt to create the private GitHub repo using `gh` (requires your permission).
