@@ -1,0 +1,57 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Editor Files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Composer
+/vendor/
+composer.phar
+composer.lock
+
+# Node.js
+/node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Build and Distribution
+/dist/
+/build/
+*.zip
+
+# WordPress Test Environment
+/tmp/
+/tests/wordpress-tests-lib/
+/tests/coverage/
+.phpunit.result.cache
+
+# Environment Configuration
+.env
+.env.*
+!.env.example
+
+# Cache and Temporary files
+*.log
+*.cache
+*.tmp
+*.swp
+*.bak
+
+AGENTS.md
+
+# WordPress specific
+wp-config.php
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/mu-plugins/
+wp-content/wp-cache-config.php

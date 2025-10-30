@@ -1,0 +1,14 @@
+#rule-form {
+    max-width: 800px;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    margin: 20px 0;
+}
+#rule-form .form-table th {
+    width: 180px;
+}
+#rules-list tr:hover {
+    background-color: #f1f1f1;
+}

@@ -1,0 +1,27 @@
+.pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 14px;
+}
+.pricing-table th,
+.pricing-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+.pricing-table th {
+    background-color: #f9f9f9;
+    font-weight: 600;
+}
+.pricing-table tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+.cart-savings th {
+    background: #e8f5e9;
+    color: #2e7d32;
+    font-weight: 600;
+    text-align: left;
+    padding: 8px 12px;
+    font-size: 0.95em;
+}

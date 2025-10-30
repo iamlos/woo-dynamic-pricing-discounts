@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+    bootstrap="tests/bootstrap.php"
+    colors="true"
+    verbose="true"
+    backupGlobals="false"
+>
+    <testsuites>
+        <testsuite name="Woo Dynamic Pricing Tests">
+            <directory suffix=".php">tests</directory>
+        </testsuite>
+    </testsuites>
+    <php>
+        <env name="WP_PHP_BINARY" value="php" />
+    </php>
+</phpunit>
